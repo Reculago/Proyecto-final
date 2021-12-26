@@ -1,3 +1,3 @@
 # Proyecto-final
 
-Para instarlar dependencias iniciar en consola:  npm install
+Para instarlar dependencias y paquetes, iniciar en consola:  npm install
