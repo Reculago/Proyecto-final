@@ -7,9 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
-
-  
-  
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "sass": "^1.45.1",
+    "sass-lint": "^1.13.1"
+  }
 }
-
