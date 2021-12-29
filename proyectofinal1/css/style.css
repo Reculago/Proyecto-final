@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Vujahday+Script&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
+
 .menuContainer {
   text-decoration: none;
   background-color: #adffad;
@@ -18,6 +20,7 @@
   -ms-flex-pack: end;
   justify-content: end;
 }
+
 .menu {
   width: 500px;
   display: -webkit-box;
@@ -27,12 +30,14 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
 @media screen and (max-width: 860px) {
   .menu {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }
+
 .home,
 .clientes,
 .contacto,
@@ -45,11 +50,13 @@
   font-size: 25px;
   margin-right: 30px;
 }
+
 main {
-  background-image: url(multimedia/fondohojas3.webp);
+  background-image: url(../multimedia/fondohojas3.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .nombrePag {
   font-style: oblique;
   font-size: 150px;
@@ -58,6 +65,7 @@ main {
   text-align: center;
   font-family: "Vujahday Script", cursive;
 }
+
 .subtitulo {
   font-style: oblique;
   font-size: 50px;
@@ -72,18 +80,22 @@ main {
   text-align: center;
   font-family: "Vujahday Script", cursive;
 }
+
 .carouselWidth {
   margin-top: 20px;
   padding: 10%;
 }
+
 .servicios {
   margin-top: 200px;
   margin-bottom: 250px;
 }
+
 .textoServicios {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 100;
 }
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
