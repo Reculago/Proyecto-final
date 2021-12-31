@@ -49,6 +49,10 @@
   margin-right: 30px;
 }
 
+.pageServicios {
+  padding: 100px !important;
+}
+
 main {
   min-height: 100vh;
   display: flex;
@@ -99,7 +103,7 @@ body {
   min-height: 100vh;
 }
 
-/*  */
+/* Esto de footerHome y footerPage fue para arrglar un error que no pude solucionar. Basicamente y no se porque en el home si usaba 'position-absolute' se me rompia el footer, y en las pages si lo usaba me lo arreglaba, asi que tuve que hacer dos clases para que uno lo tuviera y otro no porque no supe como solucionarlo. */
 
 .footerPage {
   display: -webkit-box;
