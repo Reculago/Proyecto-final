@@ -1,0 +1,13 @@
+@import "../base/extends";
+
+.pageServicios {
+  padding: 100px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.textoServicios {
+  font-family: $font-servicios;
+  @include fontWeight(500);
+  font-size: 2rem;
+}

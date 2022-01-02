@@ -1,0 +1,8 @@
+@mixin flex($display, $justifyContent) {
+  display: $display;
+  justify-content: $justifyContent;
+}
+
+@mixin fontWeight($tipo) {
+  font-weight: $tipo;
+}
