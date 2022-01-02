@@ -1,0 +1,40 @@
+/* Esto de footerHome y footerPage fue para arrglar un error que no pude solucionar. Basicamente y no se porque en el home si usaba 'position-absolute' se me rompia el footer, y en las pages si lo usaba me lo arreglaba, asi que tuve que hacer dos clases para que uno lo tuviera y otro no porque no supe como solucionarlo. */
+
+.footerPage {
+  /*   display: -webkit-box;
+  display: -ms-flexbox; */
+  /*   -webkit-box-pack: center; */
+  /*   -ms-flex-pack: center;
+  -ms-flex-pack: distribute; */
+  border-top: 1px solid black;
+  background-color: $color-principal;
+  @extend %footer;
+  position: absolute;
+}
+
+.footerHome {
+  /*   display: -webkit-box;
+  display: -ms-flexbox; */
+  /*   -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -ms-flex-pack: distribute; */
+  border-top: 1px solid black;
+  background-color: $color-principal;
+  @extend %footer;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  .media {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    li {
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+header {
+  width: 100%;
+  .menu {
+    float: right;
+    @include flex(flex, space-around);
+  }
+  text-decoration: none;
+  background-color: $color-principal;
+  padding: 20px 0;
+  @include flex(flex, end);
+}

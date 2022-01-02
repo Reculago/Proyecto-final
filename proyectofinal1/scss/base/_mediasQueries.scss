@@ -1,0 +1,30 @@
+@media screen and (max-width: 860px) {
+  .menu {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 5rem !important;
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  h1 {
+    font-size: 7rem !important;
+  }
+  h2 {
+    font-size: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .textoServicios {
+    font-size: 1.5rem !important;
+  }
+}

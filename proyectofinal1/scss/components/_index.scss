@@ -1,0 +1,18 @@
+.subtitulo {
+  font-style: oblique;
+  font-size: 50px;
+  /*   display: -webkit-box;
+  display: -ms-flexbox; */
+  /*   -webkit-box-pack: center;
+  -ms-flex-pack: center; */
+  @include flex(flex, center);
+  color: black;
+  @include fontWeight(normal);
+  text-align: center;
+  font-family: $font-family;
+}
+
+.carouselWidth {
+  margin-top: 20px;
+  padding: 10%;
+}
