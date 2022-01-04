@@ -27,7 +27,7 @@
 }
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 5rem !important;
+    font-size: 3rem !important;
   }
 
   h2 {
@@ -36,7 +36,7 @@
 }
 @media screen and (min-width: 480px) and (max-width: 780px) {
   h1 {
-    font-size: 7rem !important;
+    font-size: 4rem !important;
   }
 
   h2 {
@@ -45,7 +45,7 @@
 }
 @media screen and (max-width: 575px) {
   .textoServicios {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
 }
 header {
@@ -183,6 +183,10 @@ footer .media li a {
 * {
   margin: 0;
   padding: 0;
+}
+
+ul {
+  padding-left: 0;
 }
 
 main {
